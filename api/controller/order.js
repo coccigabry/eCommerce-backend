@@ -1,7 +1,7 @@
 import Order from '../models/Order.js'
 
 
-// CREATE CART
+// CREATE ORDER
 export const createOrderCtrl = async (req, res) => {
     const order = new Order(req.body)
     try {
